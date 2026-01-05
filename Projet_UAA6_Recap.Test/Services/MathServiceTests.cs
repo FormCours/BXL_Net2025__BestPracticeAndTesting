@@ -45,6 +45,9 @@ namespace Projet_UAA6_Recap.Test
         [InlineData(1.2, 2.3, 3.5)]
         [InlineData(-1.5, -2.2, -3.7)]
         [InlineData(10.5, -5.2, 5.3)]
+        [InlineData(1.111, 2.222, 3.33)]
+        [InlineData(5.555, 1.123, 6.68)]
+        [InlineData(3.15131584, 0.4534542, 3.6)]
         public void Addition_WithReals_ReturnsSumRoundedSimple(double nb1, double nb2, double expected)
         {
             // Arrange (Données fournies par InlineData)

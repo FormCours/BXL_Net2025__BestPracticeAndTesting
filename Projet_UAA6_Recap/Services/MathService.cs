@@ -4,8 +4,9 @@
     {
         public static double Addition(double nb1, double nb2)
         {
-            throw new NotImplementedException();
+            return nb1 + nb2;
         }
+
         public static double Soustraction(double nb1, double nb2)
         {
             throw new NotImplementedException();

@@ -61,6 +61,7 @@ namespace Projet_UAA6_Recap.Test
 
         [Theory]
         [InlineData(4.11, 0.005, 4.12)]
+        [InlineData(-3.11, -0.005, -3.12)]
         [InlineData(-3.22, -0.005, -3.23)]
         [InlineData(2.0123, -1.0068, 1.01)]
         public void Addition_WithMidpointRounding_ReturnsSumRoundedAwayFromZero(double nb1, double nb2, double expected)
